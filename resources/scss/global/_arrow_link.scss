@@ -1,0 +1,9 @@
+a.arrow-down-link{
+    text-decoration: none;
+    &:before{
+        font-family: $resume-icons-font;
+        content: "\61";
+        font-size: 2.4rem;
+    }
+    span{@include visually-hidden;}
+}

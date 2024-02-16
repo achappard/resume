@@ -1,4 +1,4 @@
-<section id="experiences" class="container">
+<section id="experiences" class="resume-section container">
     <h2>Expériences en développement web</h2>
     <ul class="list-unstyled">
         <li>

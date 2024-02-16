@@ -1,0 +1,29 @@
+$resume-icons-font: "resume-icons";
+
+@font-face {
+    font-family: $resume-icons-font;
+    src: url("/resources/resume-icons/generated-font/resume-icons.eot?fb9321abfdffeb3d68a7d4a7c21f081a#iefix") format("embedded-opentype"),
+url("/resources/resume-icons/generated-font/resume-icons.woff2?fb9321abfdffeb3d68a7d4a7c21f081a") format("woff2"),
+url("/resources/resume-icons/generated-font/resume-icons.woff?fb9321abfdffeb3d68a7d4a7c21f081a") format("woff"),
+url("/resources/resume-icons/generated-font/resume-icons.ttf?fb9321abfdffeb3d68a7d4a7c21f081a") format("truetype"),
+url("/resources/resume-icons/generated-font/resume-icons.svg?fb9321abfdffeb3d68a7d4a7c21f081a#resume-icons") format("svg");
+}
+
+i[class^="resume-icons-"]:before, i[class*=" resume-icons-"]:before {
+    font-family: resume-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$resume-icons-map: (
+    "arrow": "\61",
+);
+
+.resume-icons-arrow:before {
+    content: map-get($resume-icons-map, "arrow");
+}

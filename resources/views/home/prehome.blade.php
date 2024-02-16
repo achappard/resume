@@ -1,4 +1,4 @@
-<section class="container-fluid">
+<section class="resume-section container-fluid">
     <h1>
         <strong class="d-block">Développeur Full-Stack</strong>
         <span class="d-block fw-normal">Php / WordPress / Laravel</span>

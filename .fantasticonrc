@@ -1,0 +1,12 @@
+module.exports = {
+    inputDir: './resources/resume-icons/svg-sources', // (required)
+    outputDir: './resources/resume-icons/generated-font', // (required)
+    fontTypes: ['eot', 'woff2', "woff", "ttf", "svg"],
+    fontsUrl: '/resources/resume-icons/generated-font',
+    assetTypes: ['scss'],
+    name: 'resume-icons',
+    prefix: 'resume-icons',
+    codepoints: {
+        'arrow': 97
+    }
+};

@@ -1,4 +1,4 @@
-<section id="competences" class="container">
+<section id="competences" class="resume-section container">
     <h2>Compétences professionnelles</h2>
     <div class="row">
         <div class="col">
