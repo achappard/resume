@@ -1,0 +1,17 @@
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm{
+  @include media-breakpoint-up(sm) {
+    --bs-gutter-x: 80px;
+  }
+  @include media-breakpoint-up(md) {
+    --bs-gutter-x: 90px;
+  }
+  @include media-breakpoint-up(lg) {
+    --bs-gutter-x: 104px;
+  }
+  @include media-breakpoint-up(xl) {
+    --bs-gutter-x: 120px;
+  }
+  @include media-breakpoint-up(xxl) {
+    --bs-gutter-x: 180px;
+  }
+}
