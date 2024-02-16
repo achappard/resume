@@ -1,0 +1,125 @@
+#prehome-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 1.5rem 0;
+    @include media-breakpoint-up(lg) {
+        padding: 3.75rem 0;
+    }
+    h1{
+        letter-spacing: -1px;
+        padding-right: 40px;
+        margin-bottom: 2rem;
+        @include font-size(4rem);
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 2.8rem;
+            @include font-size(5.3rem);
+        }
+
+        >.fw-normal{
+            margin-top: 2rem;
+            @include rfs(4rem,  line-height);
+            @include font-size(1.7rem);
+            @include media-breakpoint-up(lg) {
+                margin-top: 5rem;
+                @include rfs(4rem,  line-height);
+                @include font-size(2.7rem);
+            }
+        }
+
+    }
+    hr{
+        width: 125px;
+    }
+    span#freelance-text{
+        position: fixed;
+        transform: rotate(-90deg);
+        top: 55px;
+        right: -6px;
+        display: inline-block;
+        margin-bottom: 0;
+        // Small devices (landscape phones, 576px and up)
+        @include media-breakpoint-up(sm) {
+            right: 14px;
+        }
+
+        // Medium devices (tablets, 768px and up)
+        @include media-breakpoint-up(md) {
+            right: 19px;
+        }
+
+        // Large devices (desktops, 992px and up)
+        @include media-breakpoint-up(lg) {
+            right: 26px;
+            top: 100px;
+        }
+
+        // Extra large devices (large desktops, 1200px and up)
+        @include media-breakpoint-up(xl) {
+            right: 34px;
+        }
+
+        // Extra large devices (large desktops, 1400px and up)
+        @include media-breakpoint-up(xxl) {
+            right: 64px;
+        }
+
+    }
+    ul#places-list{
+        list-style: none;
+        margin-bottom: 0;
+        padding:0;
+        font-size: .75rem;
+        @include media-breakpoint-up(lg) {
+            font-size: 1rem;
+            li{display: inline-block}
+            li:not(:last-child){
+                margin-right: .5rem;
+                &:after{
+                    position: relative;
+                    top: -2px;
+                    content: "";
+                    display: inline-block;
+                    width: 6px; height: 6px;
+                    background-color: $white;
+                    margin-left: .7rem;
+                    border-radius: 50rem;
+                }
+            }
+        }
+
+    }
+    p#name{
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        margin-right: 1.5rem;
+        // Small devices (landscape phones, 576px and up)
+        @include media-breakpoint-up(sm) {
+            @include font-size(2.5rem);
+        }
+
+        // Medium devices (tablets, 768px and up)
+        @include media-breakpoint-up(md) {
+
+        }
+
+        // Large devices (desktops, 992px and up)
+        @include media-breakpoint-up(lg) {
+
+        }
+
+        // Extra large devices (large desktops, 1200px and up)
+        @include media-breakpoint-up(xl) {
+
+        }
+
+        // Extra large devices (large desktops, 1400px and up)
+        @include media-breakpoint-up(xxl) {
+            margin-right: 2.5rem;
+        }
+
+    }
+}
+

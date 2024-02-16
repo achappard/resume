@@ -9,8 +9,8 @@
                 Pendant plus de 16 ans, j'ai acquis une expertise dans le <strong>développement PHP</strong>,
                 couvrant la création de sites web et d'applications.
                 De la conception à la mise en production, je gère l'intégralité du processus.
-                Mes compétences s'étendent aussi bien au <strong>développement front-end qu'au back-end</strong>,
-                me permettant ainsi de répondre efficacement à vos besoins.
+                Mes compétences s'étendant du <strong>développement front-end au back-end</strong>,
+                me permettent de répondre efficacement à vos besoins.
                 Je privilégie une approche orientée objet et MVC pour garantir des produits performants et évolutifs.
             </p>
             <p>
