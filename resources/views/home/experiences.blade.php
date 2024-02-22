@@ -1,4 +1,4 @@
-<section id="experiences" class="resume-section container" style="background-color: red;">
+<section id="experiences" class="resume-section container">
     <h2 class="section-title">Expériences <span class="visually-hidden">en développement web</span></h2>
     @if($experiences->isNotEmpty())
         <ul class="list-unstyled row gy-4 gy-md-5 gy-xl-7">
