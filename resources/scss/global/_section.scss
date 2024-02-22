@@ -1,5 +1,15 @@
 section.resume-section{
     min-height: 100vh;
     position: relative;
-
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    @include media-breakpoint-up(lg) {
+        padding-top: 3.75rem;
+        padding-bottom: 3.75rem;
+    }
+    .section-title{
+        text-align: center;
+        font-size: 1.875rem;
+        margin-bottom: 100px;
+    }
 }

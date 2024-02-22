@@ -1,5 +1,5 @@
 <section id="competences" class="resume-section container">
-    <h2>Compétences professionnelles</h2>
+    <h2 class="section-title">Compétences professionnelles</h2>
     <div class="row">
         <div class="col">
             <ul class="list-unstyled">
