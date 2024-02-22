@@ -5,9 +5,9 @@
             @foreach($experiences as $experience)
                 <li>
                     <div class="experience-wrapper">
-                        <img src="https://placehold.co/48x48" srcset="https://placehold.co/96x96 2x"/>
+                        <img src="{{ asset('storage/'.$experience['company-logo'].'.jpg')}}"
+                             srcset="{{ asset('storage/'.$experience['company-logo'].'_2x.jpg')}} 2x"/>
                         <div>
-
                             <h3>{{$experience['job-title']}}</h3>
                             <p>{{$experience['company']}}</p>
                             <p class="text-muted">
