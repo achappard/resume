@@ -1,6 +1,6 @@
 <section id="experiences" class="resume-section container">
     <h2>Expériences en développement web</h2>
-    @if($experiences)
+    @if($experiences->isNotEmpty())
         <ul class="list-unstyled">
             @foreach($experiences as $experience)
                 <li>
