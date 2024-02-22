@@ -1,0 +1,30 @@
+[
+    {
+        "job-title": "Développeur web full-stack - Gérant",
+        "company" : "Deefuse",
+        "company-url" : "https://www.deefuse.fr",
+        "start-date" : "2011-07-02",
+        "end-date" : null,
+        "description" : "Gérant de Deefuse, Entreprise Individuelle créée en Juillet 2011 et spécialisée dans le développement PHP performant.",
+        "acquired-skills" : "autonomie, gestion de projet et relation clientèle"
+    },
+    {
+        "job-title": "Développeur flash // AS3",
+        "company" : "Smile",
+        "company-url" : "https://www.smile.eu/fr",
+        "start-date" : "2008-07-01",
+        "end-date" : "2011-06-01",
+        "description" : "Développement Flash - Référent technique de la web agency",
+        "acquired-skills" : "philosophie Open-Source, prise de décision et recrutement"
+    },
+    {
+        "job-title": "Concepteur Développeur multimédia",
+        "company" : "SQLI",
+        "company-url" : "https://www.sqli.com/fr-fr",
+        "start-date" : "2006-02-01",
+        "end-date" : "2008-06-01",
+        "description" : "Maquettage XHTML, intégrateur, développement de site internet full-flash",
+        "acquired-skills" : "Travail en équipe, méthodologie et process de développement"
+    }
+
+]
