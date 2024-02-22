@@ -1,0 +1,37 @@
+#experiences{
+    ul.list-unstyled{
+        margin-bottom: 0;
+        li{
+            @include make-col-ready();
+            @include media-breakpoint-up(lg) {
+                @include make-col(8);
+                @include make-col-offset(2)
+            }
+            .experience-wrapper{
+                background-color: #1C1C1C;
+                padding: 1.75rem;
+                display: flex;
+                img{
+                    max-width: 48px;
+                    max-height: 48px;
+                    margin-right: 1.75rem;
+                }
+                .content{
+                    font-size: .875rem;
+                    line-height: 1.2rem;
+                    h3{
+                        font-weight: $font-weight-bold;
+                        font-size: 1.125rem;
+                    }
+                    h4{
+                        font-weight: $font-weight-bold;
+                        font-size: .875rem;
+                    }
+                    p.duration-dates{
+                        color: $text-muted;
+                    }
+                }
+            }
+        }
+    }
+}

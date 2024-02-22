@@ -1,5 +1,5 @@
 <section id="presentation" class="resume-section container">
-    <h2>Vous recherchez un développeur autonome, professionnel et sérieux ?</h2>
+    <h2 class="section-title">Présentation <span class="visually-hidden">d'Aurélien Chappard, développeur PHP</span></h2>
     <div class="row">
         <div class="col-md-4">
             image
