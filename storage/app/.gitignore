@@ -1,3 +1,5 @@
 *
 !public/
+!resume/
+!resume/experiences.json
 !.gitignore

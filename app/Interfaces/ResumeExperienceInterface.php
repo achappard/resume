@@ -2,7 +2,9 @@
 
 namespace App\Interfaces;
 
+use Illuminate\Support\Collection;
+
 interface ResumeExperienceInterface
 {
-    public function getAll(): array;
+    public function getAll(): Collection;
 }
