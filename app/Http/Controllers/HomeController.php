@@ -9,20 +9,23 @@ use Illuminate\View\View;
 class HomeController extends Controller
 {
     public function __construct(
-        private readonly ResumeExperienceInterface $experienceRepository,
+        private readonly ResumeExperienceInterface  $experienceRepository,
         private readonly ResumeCompetencesInterface $competenceRepository,
-    ){}
+    )
+    {
+    }
 
     /**
      * Default method for the SPA
      * @return View
      */
-    public function __invoke() : View{
-        $experiences = $this->experienceRepository->getAll();
-        $competences_front = $this->competenceRepository->getFrontEndCompetences();
-        $competences_back = $this->competenceRepository->getBackEndCompetences();
-        
-        return view('home', compact('experiences'));
+    public function __invoke(): View
+    {
+        $data = [
+            'experiences' => $this->experienceRepository->getAll(),
+            'competences' => $this->competenceRepository->getAll(),
+        ];
+        return view('home', $data);
     }
 
 }

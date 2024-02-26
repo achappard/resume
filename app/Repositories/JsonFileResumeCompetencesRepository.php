@@ -8,16 +8,27 @@ use Illuminate\Support\Facades\Storage;
 
 class JsonFileResumeCompetencesRepository implements ResumeCompetencesInterface
 {
-    private const string FILE_RESUME_PATH = 'resume/experiences.json';
+    private const string FILE_RESUME_PATH = 'resume/skills.json';
 
 
-    public function getFrontEndCompetences(): Collection
+    public function getAll(): Collection
     {
-        return collect();
-    }
+        if(!Storage::exists(self::FILE_RESUME_PATH)){
+            return collect();
+        }
+        $data = Storage::json(self::FILE_RESUME_PATH);
+        if(is_null($data)){
+            return collect();
+        }
 
-    public function getBackEndCompetences(): Collection
-    {
-        return collect();
+        $return = [];
+        foreach ($data as $group){
+            $return[] = [
+                'title' => array_key_exists('title', $group) ? $group['title'] : false,
+                'skills' => array_key_exists('skills', $group) ? collect($group['skills']) : collect()
+            ];
+        }
+
+        return collect($return);
     }
 }

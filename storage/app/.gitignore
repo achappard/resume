@@ -2,5 +2,5 @@
 !public/
 !resume/
 !resume/experiences.json
-!resume/competences.json
+!resume/skills.json
 !.gitignore
