@@ -5,11 +5,14 @@
             @foreach($experiences as $experience)
                 <li>
                     <div class="experience-wrapper">
-                        <img src="{{ asset('storage/'.$experience['company-logo'].'.jpg')}}"
+                        <a href="{{$experience['company-url']}}" target="_blank">
+                        <img alt="Logo de {{$experience['company']}}"
+                            src="{{ asset('storage/'.$experience['company-logo'].'.jpg')}}"
                              srcset="{{ asset('storage/'.$experience['company-logo'].'_2x.jpg')}} 2x"/>
+                        </a>
                         <div class="content">
                             <h3>{{$experience['job-title']}}</h3>
-                            <p class="company mb-1">{{$experience['company']}}</p>
+                            <p class="company mb-1"><a href="{{$experience['company-url']}}" target="_blank">{{$experience['company']}}</a></p>
                             <p class="duration-dates mb-1">
                                 {{$experience['start-date-short']}}
                                 &dash;

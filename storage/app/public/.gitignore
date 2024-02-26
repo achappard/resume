@@ -2,3 +2,5 @@
 !.gitignore
 !company/
 !company/*
+!portrait/
+!portrait/*

@@ -1,10 +1,12 @@
 <section id="presentation" class="resume-section container">
     <h2 class="section-title">Présentation <span class="visually-hidden">d'Aurélien Chappard, développeur PHP</span></h2>
-    <div class="row">
-        <div class="col-md-4">
-            image
+    <div class="row align-items-center gy-5">
+        <div class="col-md-4 text-center ">
+            <img src="{{ asset('storage/portrait/aurelien-chappard.png')}}"
+                 alt="Portrait d'Aurélien Chappard - Développeur Full-Stack sur Lyon"
+                 class="rounded-4 img-fluid"/>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-lg-6 offset-lg-1">
             <p>
                 Pendant plus de 16 ans, j'ai acquis une expertise dans le <strong>développement PHP</strong>,
                 couvrant la création de sites web et d'applications.

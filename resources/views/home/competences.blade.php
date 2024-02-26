@@ -1,7 +1,7 @@
 <section id="competences" class="resume-section container">
     <h2 class="section-title">Compétences professionnelles</h2>
     @if($competences->isNotEmpty())
-    <div class="row justify-content-center">
+    <div class="row justify-content-center gy-4">
         @foreach($competences as $competence_group)
         <div class="col-md-6 col-md-4 col-lg-4">
             @if($competence_group['title'])
