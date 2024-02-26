@@ -1,12 +1,12 @@
 [
     {
-        "job-title": "Développeur web full-stack - Gérant",
+        "job-title": "Développeur web full-stack - Freelance",
         "company" : "Deefuse",
         "company-url" : "https://www.deefuse.fr",
         "company-logo" : "company/deefuse",
         "start-date" : "2011-07-02",
         "end-date" : null,
-        "description" : "Gérant de Deefuse, Entreprise Individuelle créée en Juillet 2011 et spécialisée dans le développement PHP performant.",
+        "description" : "Freelance et gérant de Deefuse, entreprise individuelle créée en juillet 2011 et spécialisée dans le développement front-end et back-end PHP performant.",
         "acquired-skills" : "autonomie, gestion de projet et relation clientèle"
     },
     {
@@ -16,7 +16,7 @@
         "company-logo" :  "company/smile",
         "start-date" : "2008-07-01",
         "end-date" : "2011-06-01",
-        "description" : "Développement Flash - Référent technique de la web agency",
+        "description" : "Développement Flash - Directeur technique de la web agency",
         "acquired-skills" : "philosophie Open-Source, prise de décision et recrutement"
     },
     {

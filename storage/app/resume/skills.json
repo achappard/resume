@@ -1,0 +1,28 @@
+[
+    {
+        "title" : "Front",
+        "skills" :  [
+            "HTML",
+            "Bootstrap",
+            "JavaScript ESNext",
+            "JQuery",
+            "CSS - Intégration responsive",
+            "Sass",
+            "VueJS",
+            "React",
+            "Twig"
+        ]
+    },
+    {
+        "title" : "Back",
+        "skills" :  [
+            "PHP",
+            "Wordpress",
+            "Laravel",
+            "Timber",
+            "Approche MVC",
+            "Programmation Orientée Objet",
+            "MySQL"
+        ]
+    }
+]
