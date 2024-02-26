@@ -20,5 +20,5 @@
         @endforeach
     </div>
     @endif
-    <a href="#presentation" class="arrow-down-link" title="Section suivante"><span>Aller à la section suivante</span></a>
+    <a href="#presentation" class="arrow-down-link d-none d-md-block" title="Section suivante"><span>Aller à la section suivante</span></a>
 </section>

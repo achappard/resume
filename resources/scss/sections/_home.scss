@@ -1,0 +1,10 @@
+#home{
+    h2{
+        @include font-size(4.5625rem);
+        span{
+            font-weight: $font-weight-light;
+            @include font-size(4rem);
+        }
+    }
+
+}
